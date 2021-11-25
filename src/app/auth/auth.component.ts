@@ -11,11 +11,11 @@ import { AuthService, AuthResponseData } from './auth.service';
   templateUrl: './auth.component.html'
 })
 export class AuthComponent {
-      log(x) {console.log(x);}
+      log() {console.log("");}
 
   isLoginMode = true;
   isLoading = false;
-  error: string = null;
+   string = null;
 
   constructor(private authService: AuthService, private router: Router) {}
 
